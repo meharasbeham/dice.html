@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   display: flex;
+   justify-content: center;
+   height: 100vh;
+   background-color: chocolate;
+
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(190, 175, 164);
+    width: 90%;
+    max-width: 600px;
+    min-height: 600px;
+box-shadow: 3px 5px;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+h1{
+    font-size: 3rem;
+    padding: 1em;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.score-main-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:2.5rem;
+    margin-top: 2em;
+}
+  .score-box{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+color:black
+  }
+  .score-box-container h3{
+    text-align: center;
+    margin-top: 1em;
+    font-size: 2rem;
+  }
+  
+.btn{
+  
+    margin: 1em auto;
+    padding: 1.5em ;
+ display: flex;
+    font-size: 2cqmax;
+    border: none;
+    border-radius: 10px;
+    background-color: blue;
+    color: aliceblue;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.btn:hover{
+    background-color: cornflowerblue;
+}
+.restart-btn{
+    display: none;
+}
+.active{
+    box-shadow: 2px 4px yellow;
+}
+
+@media (max-width: 600px){
+    h1{
+        margin-top: 5em;
+        line-height: 1em;
+    }
+    .score-main-box{
+        flex-direction: column;
+    }
+    .btn{
+        font-size: 1.5rem;
+    }
+}
+    
+
+
