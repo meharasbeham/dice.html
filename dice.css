@@ -20,7 +20,7 @@ body{
     max-width: 600px;
     min-height: 600px;
 box-shadow: 3px 5px;
-
+margin:20px 20px;
 }
 .container{
     display: flex;
