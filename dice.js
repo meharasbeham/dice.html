@@ -68,3 +68,4 @@ function startagain(){
     restartbtn.style.display='non'
 
 }
+document.body.append( player1Turn)
